@@ -32,3 +32,7 @@ We also created visualizations to help understand the data and its patterns.
 ## Credits
 
 This project was completed by Sebastian and Alexandra, with guidance from our instructor. We would like to thank the Wireshark and Python communities for their contributions to the tools and libraries we used.
+
+## Licence
+
+This repository is protected by an invention license which prohibits copying of the source code without written permission from the owners of this repository
