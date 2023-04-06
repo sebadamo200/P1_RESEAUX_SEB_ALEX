@@ -25,7 +25,8 @@ We also created visualizations to help understand the data and its patterns.
 - `ALLUME`: Captured network traffic of packets generated when starting the application with different network use (4G, Ethernet, WiFi).
 - `APPEL`: Captured network traffic of packets generated during calls with different network use (4G, Ethernet, WiFi).
 - `VIDEO`:  Captured network traffic of packets generated during video usage with different network use (4G, Ethernet, WiFi).
-- `PYTHON_SCRIPTS`:  Scripts written in Python to perform network traffic analysis.
+- `sameWIFI`:  Captured network traffic of packets generated during video, chat and call usage with same network use (WiFi).
+- `PYTHON_SCRIPTS`:  Scripts written in Python to perform network traffic analysis and graphs.
 
 
 ## Credits
