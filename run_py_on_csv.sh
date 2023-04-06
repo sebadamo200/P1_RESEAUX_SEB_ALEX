@@ -10,6 +10,7 @@ arg1=$1
 # loop through all files in the directory and subdirectories and finf .csv files
 for file in $(find . -name "*.csv")
 do
+    echo $file
     # run python script on each file
     python3 $arg1 $file
 done

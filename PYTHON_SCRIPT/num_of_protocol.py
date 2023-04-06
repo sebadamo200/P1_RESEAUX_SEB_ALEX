@@ -21,7 +21,7 @@ def count_num_of_protocol(protocol, file):
     return num
 
 file = sys.argv[1]
-protocol_list = ["MDNS", "ICMPv6", "STP", "DNS", "TCP", "TLSv1.2", "HTTP", "UDP", "RTCP", "STUN"]
+protocol_list = ['UDP', 'DNS', 'TCP', 'TLSv1.2', 'STUN', 'RTCP', 'ARP', 'MDNS', 'ICMPv6', 'STP', 'SSDP', 'HTTP', 'XID']
 
 for_excel = []
 for protocol in protocol_list:
@@ -29,12 +29,11 @@ for protocol in protocol_list:
     for_excel.append(num)
     ## add to output file like csv
 
-#print(for_excel)
+print(for_excel)
 
-# test if another protocol is in the file
-
+# this gives unique protocol list from the csv file
+""""
 protocol_list = list_of_protocol(file)
 print(protocol_list)
-for protocol in protocol_list:
-    if protocol not in protocol_list:
-        print(protocol)
+"""
+
